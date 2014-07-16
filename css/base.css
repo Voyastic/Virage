@@ -10,11 +10,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 a,a:hover,a:active{text-decoration: none;}
 p{font-family: 'allerregular';font-size: 13px}
 /*Home*/
-#men{width: 100%; height: 65px; background: #4bafb2;border-bottom: 3px solid #336666;z-index: 9999}
+#men{width: 100%; height: 65px; background: #00B2B8;border-bottom: 3px solid #336666;z-index: 9999}
 #men img{position: absolute; margin-top: 1px;z-index: 9999}
 #menu{float: right;padding-top: 25px;margin-right: 80px}
 .espacio p{margin-left: 121px}
-.liston{background: #4bafb2;height: 560px; width: 260px;margin-left:55%;position: absolute;z-index: 999}
+.liston{background: #00B2B8;height: 560px; width: 260px;margin-left:55%;position: absolute;z-index: 999}
 .flecha-down {
     width:0px;
     height:0px;
@@ -26,6 +26,12 @@ p{font-family: 'allerregular';font-size: 13px}
 position: absolute;margin-top:-6px}
 .black{ background-color: rgba(0, 0, 0, 0.5);height: 150px; margin-top:350px; position: absolute;width: 100%}
 .lblanco{background-color: white;height: 30px;width: 250px; position: absolute;margin-top: 30px;margin-left: -20px}
+.nosotros{padding-top: 80px;padding-bottom: 80px}
+.nosotros h1{margin-bottom: 25px}
+.nosotros p{color: #555;margin-bottom: 10px}
+.promos{background-color:#ededed;padding-top: 80px;padding-bottom: 80px;height: 500px}
+h1{font-family: 'allerregular';font-size: 25px;color:#ff9900;}
+h2{font-family: 'allerregular';font-size: 45px;color:#ab8636; text-align: center;margin-bottom: 50px}
 h4{padding-top: 6px; padding-left: 15px;font-family: 'allerregular';color: #397272;}
 .triangulo{ width: 0; height: 0;border-top: 20px solid #cccccc;  border-left: 20px solid transparent; position: absolute; margin-top: 60px; margin-left: -20px}
 form{padding-top: 80px; display: block;padding-left: 20px}
@@ -41,7 +47,12 @@ form button{cursor: pointer;background-color: #ff9900;color:white;font-family: '
 form button:hover{cursor: pointer;border-bottom: 2px solid #cc6600;padding-top: 5px;  }
 .date1{height: 24px; width: 150px; margin-bottom: 10px; border: solid 1px #ccc; padding: 2px 5px;margin-left: 25px}
 .date2{height: 24px; width: 150px; margin-bottom: 10px; border: solid 1px #ccc; padding: 2px 5px;margin-left: 6px}
-
+.effect:hover{cursor:pointer;background-color: black;color:white;font-family: 'allerregular';font-size: 30px;height: 300px}
+.effect{color: transparent;}
+.content{position: absolute;margin: -190px 0 0 20px;}
+.effect img:hover{opacity: .4}
+.blue{background-color: rgba(0, 178, 184, .8);height: 60px;width:220px;position: absolute;margin-top: -74px;z-index: 999999}
+.blue p{font-family:'Source Sans Pro',sans-serif;color: white;padding: 5px 10px ;font-size: 20px}
 /*slider*/
 .slider ul li{list-style: none}
 .slider {
@@ -51,7 +62,10 @@ form button:hover{cursor: pointer;border-bottom: 2px solid #cc6600;padding-top: 
   overflow: hidden;
   margin: 0;
   padding:0;
-  z-index: 99;
+  z-index: 99;box-shadow: 2px 4px 10px 0px rgba(119, 119, 119, 0.32);
+-moz-box-shadow: 2px 4px 10px 0px rgba(119, 119, 119, 0.32);
+-webkit-box-shadow: 2px 4px 10px 0px rgba(119, 119, 119, 0.32);
+
 }
 
 .slides {
