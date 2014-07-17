@@ -37,7 +37,7 @@ h2{font-family: 'allerregular';font-size: 45px;color:#ab8636; text-align: center
 h3{font-family: 'allerregular';font-size: 40px;color:#fff;}
 h4{padding-top: 6px; padding-left: 15px;font-family: 'allerregular';color: #397272;}
 h5{font-family: 'Source Sans Pro',sans-serif;padding: 5px 0;font-size: 16px;font-weight: 600}
-
+h6{ font-size:25px;font-family: 'allerregular';color: #00B2B8;}
 .triangulo{ width: 0; height: 0;border-top: 20px solid #cccccc;  border-left: 20px solid transparent; position: absolute; margin-top: 60px; margin-left: -20px}
 
 /*FORMULARIO*/
@@ -443,5 +443,7 @@ http://nicolasgallagher.com/micro-clearfix-hack/
     border-radius: 3px !important;}
 
 /*NOSOTROS*/
-.hnos{background: url(../images/nosotros.jpg); height: 350px;width: 100%;padding-top: 200px;border-bottom: 4px solid #00B2B8}
+.hnos{background: url(../images/nosotros.jpg); height: 350px;width: 100%;padding-top: 200px;border-bottom: 4px solid #00B2B8;margin-bottom: 70px}
 .hnos h3{width:650px;font-size: 50px; background: rgba(4,41,41,0.6);text-align: center;border: 3px white solid;padding: 10px;margin: 0 auto;display: block}
+.main h6{margin: 30px 0}
+.main p{margin-bottom: 10px;text-align: left;color: #555;font-size: 13px}
