@@ -443,7 +443,18 @@ http://nicolasgallagher.com/micro-clearfix-hack/
     border-radius: 3px !important;}
 
 /*NOSOTROS*/
+.premium{background: url(../images/premium.jpg); height: 350px;width: 100%;padding-top: 200px;border-bottom: 4px solid #00B2B8;margin-bottom: 70px}
+
 .hnos{background: url(../images/nosotros.jpg); height: 350px;width: 100%;padding-top: 200px;border-bottom: 4px solid #00B2B8;margin-bottom: 70px}
-.hnos h3{width:650px;font-size: 50px; background: rgba(4,41,41,0.6);text-align: center;border: 3px white solid;padding: 10px;margin: 0 auto;display: block}
+.hnos h3,.premium h3{width:650px;font-size: 50px; background: rgba(4,41,41,0.6);text-align: center;border: 3px white solid;padding: 10px;margin: 0 auto;display: block}
 .main h6{margin: 30px 0}
-.main p{margin-bottom: 10px;text-align: left;color: #555;font-size: 13px}
+.main p{margin-bottom: 10px;text-align: left;color: #555;font-size: 13px;width: 400px}
+.main{height: 600px}
+#div4 ul li,.main ul li{list-style: none;padding-top: 10px}
+#div4 ul,.main ul {padding-top: 10px}
+#div3 img{margin: 0 auto;display: block;padding-top: 5px}
+#div4 img{padding-right: 3px}
+#div4 img,#div4 p,.main img,.main p{display: inline-block}
+#div2,#div3,#div4{display:none; }
+.botones ul li{cursor: pointer;list-style: none;display: inline;}
+.circle{height: 50px;width: 50px;border-radius: 50%;background: red;display: inline-block}
