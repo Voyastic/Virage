@@ -26,27 +26,8 @@
 </head>
 
 <body>
-	<div id="men">
-			<div class="container">
-				<div class="three columns"><img src="images/logo_03.png"></div>
+<?php include 'menu.php';?>
 
-<ul id="menu">
-    <a href="nosotros.html"><li>Nosotros</li></a>
-    <a href="servicios.html"><li>Servicios</li></a>
-    <a href="premium.html"><li>Premium</li></a>
-    <a href=""><li>Blog</li></a>
-    <a href="contacto.html"><li>Contacto</li></a>
-    <a href=""><li>Login</li></a>
-
-</ul>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav();
-});
-</script>
-</div>
-
-</div>
 
 <div class="liston">
 	<div class="lblanco"><h4>¡ORGANIZA TU VIAJE!</h4></div>
@@ -119,10 +100,31 @@ $(document).ready(function(){
 	</div>
 <div class="slider">
 			<ul class="slides">
-				<li class="slide"><div><img src="images/homef.jpg"></div></li>
-				<li class="slide"><div><img src="images/homef.jpg"></div></li>
-				<li class="slide"><div><img src="images/homef.jpg"></div></li>
-				<li class="slide"><div><img src="images/homef.jpg"></div></li>	
+				<li class="slide">
+					<div>
+						<div class="blacks">
+						<h3>CONNECTING EXPERIENCES</h3>	
+						<a href="contacto.php"><button>VÁMONOS DE VIAJE</button></a>
+						</div><img src="images/h1.jpg"></div>
+					</li>
+				<li class="slide"><div>
+						<div class="b">
+						<h3>CONECTANDO EXPERIENCIAS</h3>	
+						<a href="contacto.php"><button>VÁMONOS DE VIAJE</button></a>
+						</div><img src="images/h2.jpg"></div>
+					</li>
+				<li class="slide">	<div>
+						<div class="b">
+						<h3>EXPERIÊNCIA DE CONEXÃO</h3>	
+						<a href="contacto.php"><button>VÁMONOS DE VIAJE</button></a>
+						</div><img src="images/h3.jpg"></div>
+					</li>
+				<li class="slide">	<div>
+						<div class="b">
+						<h3>EXPÉRIENCE DE CONNEXION</h3>	
+						<a href="contacto.php"><button>VÁMONOS DE VIAJE</button></a>
+						</div><img src="images/h4.jpg"></div>
+					</li>
 			</ul>
 		</div>
 		<script>
@@ -154,70 +156,8 @@ Nuestro trabajo nos ha llevado al liderazgo en la industria y a ser reconocidos 
 			</div>
 		</section>
 
-<section class="promos">
-	<div class="container">
-		<h2>¡VÁMONOS DE VIAJE!</h2>
+<?php include 'promo.php';?>
 
-<a href="promo1.html">
-	<div class="four columns promo1">
- 		<div id="overlay">
-   		<div class="text">
-   			<p>Desde:<p>
-   				<h3>$1,071.00</h3>
-   				  <p>USD CPL+ 289 IMP.<p>
-   		</div>
-  </div>
-    	<div class="blue">
-    		FIESTAS PATRIAS EN LAS VEGAS
-    	</div>
-	</div></a>
-	<a href="promo2.html">
-	<div class="four columns promo2">
- 		<div id="overlay">
-   		<div class="text">
-   			<p>Desde:<p>
-   				<h3>$2,089.00</h3>
-   				  <p>USD + IMP.<p>
-   		</div>
-  </div>
-    	<div class="blue">
-MADRID-PARIS 8 DÍAS    	</div>
-	</div></a>
-
-<a href="promo3.html">
-	<div class="four columns promo3">
- 		<div id="overlay">
-   		<div class="text">
-   			<p>Desde:<p>
-   				<h3>$1,077.00</h3>
-   				  <p>USD<p>
-   		</div>
-  </div>
-    	<div class="blue">
-    		VERANO: ORLANDO SOÑADO
-    	</div>
-	</div></a>
-
-	<a href="promo4.html">
-	<div class="four columns promo4">
- 		<div id="overlay">
-   		<div class="text">
-   			<p>Desde:<p>
-   				<h3>$1,799.00</h3>
-   				  <p>USD<p>
-   		</div>
-  </div>
-    	<div class="blue">
-    		GRAN BARRERA DE CORAL: 16 DÍAS
-    	</div>
-	</div></a>
-
-</div>
-
-
-		
-	</div>
-</section>
 <section class="testimonio">
 	<div class="container">
 		<div class="eight columns">
@@ -230,139 +170,8 @@ MADRID-PARIS 8 DÍAS    	</div>
 		</div>
 	</div>
 </section>
-<footer>
-<div class="container">
-	<div class="three columns">
-		<ul> 
-			<a href="">
-				<li><h5>NOSOTROS</h5></li>
-			</a>
-			<a href="">
-				<li>Nuestra misión</li>
-			</a>
-			<a href="">
-				<li>Distintivo M</li>
-			</a>
-			<a href="">
-				<li>Ventajas competitivas</li>
-			</a>
-			<a href="">
-				<li><h5>SERVICIOS PREMIUM</h5></li>
-			</a>
-			<a href="">
-				<li>Trámite de visas</li>
-			</a>
-			<a href="">
-				<li>Traslados privados</li>
-			</a>
-			<a href="">
-				<li>Boletos beneficio</li>
-			</a>
-			<a href="">
-				<li>Congierge</li>
-			</a>
-			<a href="">
-				<li>Especiales</li>
-			</a>
-		</ul>
-	</div>
-	<div class="three columns">
-		<ul> 
-			<a href="">
-				<li><h5>SERVICIOS</h5></li>
-			</a>
-			<a href="">
-				<li>Servicio 24/7</li>
-			</a>
-			<a href="">
-				<li>Viajes de negocio</li>
-			</a>
-			<a href="">
-				<li>Viajes de placer</li>
-			</a>
-			<a href="">
-				<li>Grupos de incentivos</li>
-			</a>
-			<a href="">
-				<li>Congresos y convenciones</li>
-			</a>
-			<a href="">
-				<li>Servicios corporativos</li>
-			</a>
-			<a href="">
-				<li>Servicios aereos</li>
-			</a>
-			<a href="">
-				<li>Hospedaje y Transporte</li>
-			</a>
-			<a href="">
-				<li>Client Base / Sabre CRM</li>
-			</a>
-			<a href="">
-				<li>Reportes en línea</li>
-			</a>
-		</ul>
-	</div>
-	<div class="three columns">
-		<ul> 
-			<a href="">
-				<li><h5>¿PORQUÉ NOSOTROS?</h5></li>
-			</a>
-			<a href="">
-				<li>Antes del evento</li>
-			</a>
-			<a href="">
-				<li>Durante el evento</li>
-			</a>
-			<a href="">
-				<li>Después del evento</li>
-			</a>
-			<a href="">
-				<li>Tour & Travel</li>
-			</a>
+	<?php include 'footer.php';?>
 
-			
-
-		</ul>
-	</div>
-<div class="three columns">
-		<ul> 
-<li><div class="imagen"><img src="images/phone.png"></div><div class="two columns"><h5>CONMUTADOR:</h5>52.00.50.50<h5>GRATUITO:</h5>
-01.800.716.09.99<h5>EMERGENCIA:</h5>
-52.00.50.22</div></li><br>	
-
-		</ul>
-	</div>
-	<div class="four columns">
-		<ul> 
-<li><div class="imagen"><img src="images/dir.png"></div><div class="three columns"><h5>DIRECCIÓN:</h5>Insurgentes Sur No. 716 Piso 5. Col. del Valle Norte<br>
-Delegacion Benito Juarez, C.P. 03103
-México, D.F.
-</div></li>
-<li class="center"><img src="images/logoViajes.png"></li>	
-<li class="center"><p>Viajes Integrales S.A. de C.V.</p></li>
-
-		</ul>
-	</div>
-</div>
-</footer>
-<div class="grey">
-	<div class="container">
-<ul>
-		<a href="">
-			<li>Términos y condiciones |</li>
-		</a>
-		<a href="">
-			<li>Políticas de privacidad |</li>
-		</a>
-		<a href="">
-			<li> Encuesta de servicio |</li>
-		</a>
-		<a href="">
-			<li> Contacto</li>
-		</a>
-	</ul></div>
-</div>
 </body>
 
 </html>

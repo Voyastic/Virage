@@ -30,7 +30,7 @@
 			 * False for not appending arrows
 			 * Id or class name (e.g. '.class-name') for appending to specific HTML markup
 			 */
-			arrows: true,
+			arrows: false,
 			// {String} Arrows wrapper class
 			arrowsWrapperClass: 'slider-arrows',
 			// {String} Main class for both arrows

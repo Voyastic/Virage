@@ -5,6 +5,12 @@
 	<title>Virage</title>
 	<link rel="stylesheet" type="text/css" href="css/base.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+
+<link type="text/css" href="css/le-frog/jquery-ui-1.8.1.custom.css" rel="Stylesheet" />  
+
+
 </head>
 <body onload="startTime()" >
 
@@ -41,9 +47,14 @@
 	<button class="cafe">Nombre de boton</button>
 	<button class="blanco">Nombre de boton</button>
 
-<button class="birthday">
+<button class="cumpleanos">
 	<div class="title">Enviar tarjeta de regalo</div>
 	<div class="icon"><img src="images/gift.png"></div>
+</button>
+
+<button class="cargar">
+	<div class="report">Cargar reporteador</div>
+	<div class="icon"><img src="images/sync.png"></div>
 </button>
 
 <br><br><br>
@@ -63,7 +74,7 @@
 <div class="container">
 <br><br>
 <!--Tablas-->
-<table>
+<table class="tablas">
 <tr class="none">
   <th><h2>FECHA DE <br>EMISIÓN</h2></th>
   <th><h2>NO. DE <br>DOCUMENTO</h2></th>		
@@ -131,7 +142,7 @@
 <div class="container">
 	<div class="six columns cuadro">
 		<div class="titular"><h3>PRECIOS</h3></div>
-		<table>
+		<table class="tablas">
 		<tr>
 			<td><h2>TARIFA BASE:</h2></td>
 			<td>$ 1650.00</td>
@@ -196,6 +207,41 @@ function checkTime(i) {
     return i;
 }
 </script>
+</div>
+<div class="container"><h2>FORMULARIO:</h2><input placeholder="Escribir aqui"></input>
+	<input placeholder="Buscar" class="buscar"></input>
+	<input type="text" placeholder="DD/MM/YY" name="datepicker" id="datepicker" class="calendario" readonly="readonly"/>
+<script type="text/javascript">
+
+jQuery(function($){
+      $.datepicker.regional['es'] = {
+            closeText: 'Cerrar',
+            prevText: '&#x3c;',
+            nextText: '&#x3e;',
+            currentText: 'Hoy',
+            monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio',
+            'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+            monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun',
+            'Jul','Ago','Sep','Oct','Nov','Dic'],
+            dayNames: ['Domingo','Lunes','Martes','Mi&eacute;rcoles','Jueves','Viernes','S&aacute;bado'],
+            dayNamesShort: ['Dom','Lun','Mar','Mi&eacute;','Juv','Vie','S&aacute;b'],
+            dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','S&aacute;'],
+            weekHeader: 'Sm',
+            dateFormat: 'dd/mm/yy',
+            firstDay: 1,
+            isRTL: false,
+            showMonthAfterYear: false,
+            yearSuffix: ''};
+      $.datepicker.setDefaults($.datepicker.regional['es']);
+});    
+ 
+$(document).ready(function() {
+   $("#datepicker").datepicker();
+ });
+</script>
+
+
+
 </div>
 </body>
 </html>

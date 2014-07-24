@@ -22,28 +22,10 @@
 </head>
 
 <body>
-	<div id="men">
-			<div class="container">
-			<div class="three columns">
-			<a href="index.html"><img src="images/logo_03.png"></a></div>
-<ul id="menu">
-    <a href="nosotros.html"><li>Nosotros</li></a>
-    <a href="servicios.html"><li>Servicios</li></a>
-    <a href="premium.html"><li>Premium</li></a>
-    <a href=""><li>Blog</li></a>
-    <a href="contacto.html"><li>Contacto</li></a>
-    <a href=""><li>Login</li></a>
+	<?php include 'menu.php';?>
 
-</ul>
-<script type="text/javascript">
-$(document).ready(function(){
-	$('#menu').slicknav();
-});
-</script>
-</div>
 
-</div>
-<section class="hnos">
+<section class="hnos" id="largeimage">
 	<div class="container"> <h3>ACERCA DE NOSOTROS</h3></div>
 </section>
 <section class="container main">
@@ -97,10 +79,10 @@ SAP Business One se integra con el Sistema de Distribución Global (GDS) Sabre, 
 	<div class="eight columns botones">
 		<h6>"EN VIRAGE NOS ESPECIALIZAMOS EN HACER DE LOS SERVICIOS TURÍSTICOS CORPORATIVOS UNA EXPERIENCIA INOLVIDABLE"</h6>
 <ul>
-	<li id="img1"><div class="circle"></div></li>
-	<li id="img2"><div class="circle"></div></li>
-	<li id="img3"><div class="circle"></div> </li>
-	<li id="img4"><div class="circle"></div></li>
+	<li id="img1"><div class="circle">NOSOTROS</div></li>
+	<li id="img2"><div class="circle">MISIÓN</div></li>
+	<li id="img3"><div class="circle">DISTINTIVO M</div> </li>
+	<li id="img4"><div class="circle">a</div></li>
 </ul>
 
 
@@ -135,138 +117,7 @@ $("#img4").on('click', function() {
 });
 </script>
 </section>
-<footer>
-<div class="container">
-	<div class="three columns">
-		<ul> 
-			<a href="nosotros.html">
-				<li><h5>NOSOTROS</h5></li>
-			</a>
-			<a href="nosotros.html">
-				<li>Nuestra misión</li>
-			</a>
-			<a href="nosotros.html">
-				<li>Distintivo M</li>
-			</a>
-			<a href="nosotros.html">
-				<li>Ventajas competitivas</li>
-			</a>
-			<a href="premium.html">
-				<li><h5>SERVICIOS PREMIUM</h5></li>
-			</a>
-			<a href="premium.html">
-				<li>Trámite de visas</li>
-			</a>
-			<a href="premium.html">
-				<li>Traslados privados</li>
-			</a>
-			<a href="premium.html">
-				<li>Boletos beneficio</li>
-			</a>
-			<a href="premium.html">
-				<li>Congierge</li>
-			</a>
-			<a href="premium.html">
-				<li>Especiales</li>
-			</a>
-		</ul>
-	</div>
-	<div class="three columns">
-		<ul> 
-			<a href="servicios.html">
-				<li><h5>SERVICIOS</h5></li>
-			</a>
-			<a href="servicios.html">
-				<li>Servicio 24/7</li>
-			</a>
-			<a href="servicios.html">
-				<li>Viajes de negocio</li>
-			</a>
-			<a href="servicios.html">
-				<li>Viajes de placer</li>
-			</a>
-			<a href="servicios.html">
-				<li>Grupos de incentivos</li>
-			</a>
-			<a href="servicios.html">
-				<li>Congresos y convenciones</li>
-			</a>
-			<a href="servicios.html">
-				<li>Servicios corporativos</li>
-			</a>
-			<a href="servicios.html">
-				<li>Servicios aereos</li>
-			</a>
-			<a href="servicios.html">
-				<li>Hospedaje y Transporte</li>
-			</a>
-			<a href="servicios.html">
-				<li>Client Base / Sabre CRM</li>
-			</a>
-			<a href="servicios.html">
-				<li>Reportes en línea</li>
-			</a>
-		</ul>
-	</div>
-	<div class="three columns">
-		<ul> 
-			<a href="servicios.html">
-				<li><h5>¿PORQUÉ NOSOTROS?</h5></li>
-			</a>
-			<a href="servicios.html">
-				<li>Antes del evento</li>
-			</a>
-			<a href="servicios.html">
-				<li>Durante el evento</li>
-			</a>
-			<a href="servicios.html">
-				<li>Después del evento</li>
-			</a>
-			<a href="servicios.html">
-				<li>Tour & Travel</li>
-			</a>
+	<?php include 'footer.php';?>
 
-			
-
-		</ul>
-	</div>
-<div class="three columns">
-		<ul> 
-<li><div class="imagen"><img src="images/phone.png"></div><div class="two columns"><h5>CONMUTADOR:</h5>52.00.50.50<h5>GRATUITO:</h5>
-01.800.716.09.99<h5>EMERGENCIA:</h5>
-52.00.50.22</div></li><br>	
-
-		</ul>
-	</div>
-	<div class="four columns">
-		<ul> 
-<li><div class="imagen"><img src="images/dir.png"></div><div class="three columns"><h5>DIRECCIÓN:</h5>Insurgentes Sur No. 716 Piso 5. Col. del Valle Norte<br>
-Delegacion Benito Juarez, C.P. 03103
-México, D.F.
-</div></li>
-<li class="center"><img src="images/logoViajes.png"></li>	
-<li class="center"><p>Viajes Integrales S.A. de C.V.</p></li>
-
-		</ul>
-	</div>
-</div>
-</footer>
-<div class="grey">
-	<div class="container">
-<ul>
-		<a href="">
-			<li>Términos y condiciones |</li>
-		</a>
-		<a href="">
-			<li>Políticas de privacidad |</li>
-		</a>
-		<a href="">
-			<li> Encuesta de servicio |</li>
-		</a>
-		<a href="">
-			<li> Contacto</li>
-		</a>
-	</ul></div>
-</div>
 </body>
 </html>

@@ -9,6 +9,13 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 *{ margin: 0; padding: 0; border: 0; }
 a,a:hover,a:active{text-decoration: none;color: none}
 p{font-family: 'Source Sans Pro';font-size: 14px}
+h1{font-family: 'allerregular';font-size: 25px;color:#ff9900;}
+h2{font-family: 'allerregular';font-size: 45px;color:#ab8636; text-align: center;margin-bottom: 50px}
+h3{font-family: 'allerregular';font-size: 40px;color:#fff;}
+h4{padding-top: 6px; padding-left: 15px;font-family: 'allerregular';color: #397272;}
+h5{font-family: 'Source Sans Pro',sans-serif;padding: 5px 0;font-size: 16px;font-weight: 600}
+h6{ font-size:25px;font-family: 'allerregular';color: #00B2B8;}
+.triangulo{ width: 0; height: 0;border-top: 20px solid #cccccc;  border-left: 20px solid transparent; position: absolute; margin-top: 60px; margin-left: -20px}
 /*Home*/
 #men{width: 100%; height: 65px; background: #00B2B8;border-bottom: 3px solid #336666;z-index: 9999}
 #men img{position: absolute; margin-top: 1px;z-index: 9999}
@@ -24,22 +31,14 @@ p{font-family: 'Source Sans Pro';font-size: 14px}
     font-size:0px;
     line-height:0px;z-index:10;
 position: absolute;margin-top:-8px}
-.black{ background-color: rgba(0, 0, 0, 0.5);height: 150px; margin-top:350px; position: absolute;width: 100%}
-.lblanco{background-color: white;height: 30px;width: 250px; position: absolute;margin-top: 30px;margin-left: -20px}
+.black{ background-color: rgba(0, 0, 0, 0.5);height: 80px; margin-top:350px; position: absolute;width: 100%}
+.lblanco{background-color: #fff;height: 30px;width: 250px; position: absolute;margin-top: 30px;margin-left: -20px}
 .nosotros{padding-top: 80px;padding-bottom: 80px}
 .nosotros h1{margin-bottom: 25px}
 .nosotros p{color: #555;margin-bottom: 10px}
 .promos{background-color:#ededed;padding-top: 60px;padding-bottom: 100px;height: 400px;border: 1px solid #d5d5d5 }
 .testimonio{padding: 100px 0}
 .testm{;font-family: 'Source Sans Pro' ;font-style:italic;font-weight: 400;font-size: 15px;padding-top: 15px;color: #333}
-h1{font-family: 'allerregular';font-size: 25px;color:#ff9900;}
-h2{font-family: 'allerregular';font-size: 45px;color:#ab8636; text-align: center;margin-bottom: 50px}
-h3{font-family: 'allerregular';font-size: 40px;color:#fff;}
-h4{padding-top: 6px; padding-left: 15px;font-family: 'allerregular';color: #397272;}
-h5{font-family: 'Source Sans Pro',sans-serif;padding: 5px 0;font-size: 16px;font-weight: 600}
-h6{ font-size:25px;font-family: 'allerregular';color: #00B2B8;}
-.triangulo{ width: 0; height: 0;border-top: 20px solid #cccccc;  border-left: 20px solid transparent; position: absolute; margin-top: 60px; margin-left: -20px}
-
 /*FORMULARIO*/
 
 form{padding-top: 80px; display: block;padding-left: 20px}
@@ -51,8 +50,8 @@ input[type=radio] + label:before {content: ""; display: inline-block; width: 15p
 input[type=radio]:checked + label:before {content: "\2022";color: #cfcfcf;font-size: 25px;text-align: center;line-height: 18px}
 form p{color: white;margin-bottom: 10px}
 label{color: white;font-family: 'allerregular';font-size: 13px}
-form button{cursor: pointer;background-color: #ff9900;color:white;font-family: 'allerregular';font-size: 18px; height: 40px; width: 200px;border-bottom: 3px solid #cc6600;padding-top: 3px; margin: 15px 12px; display: block; }
-form button:hover{cursor: pointer;border-bottom: 2px solid #cc6600;padding-top: 5px;  }
+form button,button{cursor: pointer;background-color: #ff9900;color:white;font-family: 'allerregular';font-size: 18px; height: 40px; width: 200px;border-bottom: 3px solid #cc6600;padding-top: 3px; margin: 15px 12px; display: block; }
+form button:hover,button:hover{cursor: pointer;border-bottom: 2px solid #cc6600;padding-top: 5px;  }
 .date1{height: 24px; width: 150px; margin-bottom: 10px; border: solid 1px #ccc; padding: 2px 5px;margin-left: 25px}
 .date2{height: 24px; width: 150px; margin-bottom: 10px; border: solid 1px #ccc; padding: 2px 5px;margin-left: 6px}
 
@@ -443,18 +442,141 @@ http://nicolasgallagher.com/micro-clearfix-hack/
     border-radius: 3px !important;}
 
 /*NOSOTROS*/
+.contacto{background: url(../images/contacto.jpg)}
+.servicios{background: url(../images/servicios.jpg)}
 .premium{background: url(../images/premium.jpg); height: 350px;width: 100%;padding-top: 200px;border-bottom: 4px solid #00B2B8;margin-bottom: 70px}
+#largeimage{ height: 350px;width: 100%;padding-top: 200px;border-bottom: 4px solid #00B2B8;margin-bottom: 70px}
+.hnos{background: url(../images/nosotros.jpg)}
+.hnos h3,.premium h3,.servicios h3,.contacto h3{width:650px;font-size: 50px; background: rgba(0,0,0,0.6);text-align: center;border: 3px white solid;padding: 10px;margin: 0 auto;display: block}
+.main h6,.main2 h6{margin: 30px 0}
+.main p,.main2 p{margin-bottom: 10px;text-align: left;color: #555;font-size: 13px;width: 400px}
 
-.hnos{background: url(../images/nosotros.jpg); height: 350px;width: 100%;padding-top: 200px;border-bottom: 4px solid #00B2B8;margin-bottom: 70px}
-.hnos h3,.premium h3{width:650px;font-size: 50px; background: rgba(4,41,41,0.6);text-align: center;border: 3px white solid;padding: 10px;margin: 0 auto;display: block}
-.main h6{margin: 30px 0}
-.main p{margin-bottom: 10px;text-align: left;color: #555;font-size: 13px;width: 400px}
 .main{height: 600px}
+.main2{height: 350px}
+
 #div4 ul li,.main ul li{list-style: none;padding-top: 10px}
-#div4 ul,.main ul {padding-top: 10px}
+.main2 ul li{padding-top: 10px}
+#div4 ul,.main ul,.main2 ul {padding-top: 10px}
 #div3 img{margin: 0 auto;display: block;padding-top: 5px}
 #div4 img{padding-right: 3px}
-#div4 img,#div4 p,.main img,.main p{display: inline-block}
+#div4 img,#div4 p,.main img,.main p,.main2 img,.main2 p{display: inline-block}
 #div2,#div3,#div4{display:none; }
 .botones ul li{cursor: pointer;list-style: none;display: inline;}
-.circle{height: 50px;width: 50px;border-radius: 50%;background: red;display: inline-block}
+.circle{height: 100px;width: 100px;border-radius: 50%;background: #CCC;display: inline-block}
+
+/*slider*/
+.blacks{background: rgba(0,0,0, .4); width: 100%;height: 120px;position: fixed;margin-top: 350px;padding: 20px 200px}
+.b{width: 100%;height: 120px;position: fixed;margin-top: 350px;padding: 20px 200px}
+.blacks h3,.b h3{font-size: 50px}
+.blacks button,.b button{margin-left: 360px;position: fixed;}
+.slider2 ul li{list-style: none}
+.slider2 {position: relative;
+  height: 550px;width: 100%;border-bottom: 4px solid #00B2B8;margin-bottom: 70px;
+  overflow: hidden;
+
+  z-index: 99}
+
+.slides2 {
+  height: 100%;
+  overflow: hidden;
+  *zoom: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;}
+
+.slide2 {
+  height: 100%;
+  float: left;
+  clear: none;
+}
+.con h1{text-align: center; padding-top: 100px}
+.tittle h3{z-index:99999;position: absolute;width:700px;font-size: 50px; background: rgba(0,0,0,0.7);text-align: center;border: 3px white solid;padding: 10px;margin: 200px 100px}
+.mainpromo p{margin: 10px 0;text-align: left;color: #555;font-size: 13px;height: auto}
+.info{border: 1px solid #ccc;margin-bottom: 100px}
+.infohead{height: 50px;width: 100%;background: #333}
+.infohead h6{color:#fff;padding: 10px;text-align: center;}
+.infotit img,.infotit p{display: inline-block}
+.infotit img{padding: 10px 15px 0 15px;position: absolute;}
+.infotit p{margin-top: 12px;margin-left:0px;font-size: 15px}
+.infotit {border-bottom: 1px solid #ccc;margin: 15px 5px 10px 5px;font-weight:600}
+.info p{padding: 0 50px}
+.info ul {padding: 0 20px 0 50px;font-family: 'Source Sans Pro';font-size: 14px;color: #555}
+.flecha  {list-style-image:url(../images/arrow.png);padding-top: 5px;padding: 0 20px 0 50px;font-family: 'Source Sans Pro';font-size: 14px;color: #555}
+.flecha li{margin-top: 10px}
+.info h4{color: #555;margin: 20px 0 10px 0}
+.info h3{color: #555;margin: 10px 0;font-size: 35px;text-align: center;}
+.info button{cursor: pointer;background-color: #ff9900;color:white;font-family: 'allerregular';font-size: 18px; height: 50px; width: 250px;border-bottom: 3px solid #cc6600;padding-top: 3px; margin: 35px auto 25px auto; display: block; }
+.info button:hover{cursor: pointer;border-bottom: 2px solid #cc6600;padding-top: 5px;  }
+.terms p{padding: 0px 20px;font-size: 12px;line-height: 130%;color: #777}
+.terms{margin-bottom: 30px}
+.promo table{border-collapse: collapse;margin: 30px 0px;border:1px solid #ccc;width: 500px;font-family: 'Source Sans Pro';font-size: 14px;color: #555}
+.promo .tablehead {background: #333;color:white;font-family: 'allerregular';font-size: 18px; border-collapse: collapse;margin: 0 }
+.color{width: 5px}
+.promo td{padding: 10px}
+.blue1{background: #3d7273;padding: 0px;border: none }
+.blue2{background: #61b1b3;padding: 0px;border: none }
+td{border-bottom:1px solid #ccc; }
+.promo th{padding: 10px}
+.promo{padding-top: 30px}
+
+/*SERVICIOS*/
+.serv img{ margin: 20px auto;display: block;}
+.serv h6{text-align: center;margin: 10px 0;font-size: 22px}
+.serv p{margin: 10px auto;display:block;text-align: left;color: #555;font-size: 13px;height: auto;padding: 0 10px}
+.cont {padding: 30px 0;}
+.cont input{height: 40px;width: 400px;border-radius: 1px;background: #f1f1f1;color: #999;display: block;}
+textarea{padding:10px;height: 150px;width: 390px;border-radius: 1px;background: #f1f1f1;color: #999;display: block;border: 1px solid #ccc}
+textarea, input, button { outline: none; }
+.cont button{height: 45px; margin-left: 210px;margin-bottom: 80px}
+.serv.marg{height: 400px;}
+/*PREMIUM*/
+.gris{background-color:#ededed;padding-top: 60px;padding-bottom: 100px;height: auto;border: 1px solid #d5d5d5 ;margin: 100px 0 50px 0;}
+.accordion{background: #fff}
+.accordion div{padding: 10px;background-color: #444;border: 1px solid #f1f1f1;border-radius: 5px 5px 0 0 ;}
+.accordion .content{border-radius: 0;}
+.accordion h6{color: #fff;padding: 10px;display: inline}
+.accordion img{display: inline;float: right;}
+.accordion .content{background-color: #fff;padding-bottom: 30px}
+.gris h6{margin-bottom: 10px}
+.gris h2,.blanc h2{text-align: left;font-size: 35px;margin-bottom: 10px}
+.tipo img{margin: 0 auto;display: block;margin: 30px 0 0 0}
+.tipo p{padding: 0px;margin: 20px 0}
+.blanc{height: auto;margin-bottom: 100px}
+
+
+
+
+.top{background-color: #00B2B8;color: #fff; font-family: 'allerregular'; font-size: 20px;float: right;width: 100%;height: 40px}
+.top img{float: right; width: 20px;height: 20px;margin-top: 10px;margin-right: 10px;cursor: pointer;}
+
+/** modal window styles **/
+#lean_overlay {
+    position: fixed;
+    z-index:9999;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+#loginmodal {
+  width: 350px;
+  background: #fff;
+  border: 1px solid #ccc;border-radius: 2px;    z-index:99999;
+}
+
+
+#loginform {  padding: 30px;margin: 0 auto;display: block;
+ }
+
+.logintittle h6{ margin: 30px 0 20px 0; border-bottom: 1px solid #ccc
+ }
+#loginform label { display: block; font-size: 14px;color: #333; margin-bottom: 3px; }
+#loginform #password {margin:10px 0;height: 35px ;width: 250px;border-radius: 1px;background: #fff;color: #999;display: block;border: 1px solid #ccc;padding-left: 10px }
+#loginform #username{margin:10px 0; height: 30px ;width: 245px;border-radius: 1px;background: #fff;color: #999;display: block;border: 1px solid #ccc;padding-left: 10px }
+#loginform button {margin: 30px auto 0 auto; display: block;width: 220px}
+.bot{margin-top: 30px;border-top:  1px solid #ccc;padding-top: 10px;font-family: 'allerregular'; color: #333;font-size: 14px}
+.bot a{color:#ff9900;}
+.bot a:hover{text-decoration: underline;}
