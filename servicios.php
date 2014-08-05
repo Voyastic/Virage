@@ -26,8 +26,10 @@
 </head>
 
 <body>
-	<?php include 'menu.php';?>
+		<?php include 'menu.php';?>
 	<?php include 'cotizador.php';?>
+	<?php include 'login.php';?>
+
 
 <section class="servicios" id="largeimage">
 	<div class="container"> <h3> NUESTROS SERVICIOS</h3>	

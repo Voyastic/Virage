@@ -30,6 +30,8 @@
 <body>
 	<?php include 'menu.php';?>
 	<?php include 'cotizador.php';?>
+	<?php include 'login.php';?>
+
 
 <section class="premium">
 	<div class="container"> <h3>SERVICIOS PREMIUM</h3></div>
