@@ -49,9 +49,9 @@
 <section class="gris">
 <div class="container serv">
 	<div class="one-third column"><img src="images/s4.png">
-		<h6>SERVICIOS AÉREOS</h6><p>Proporcionamos las mejores tarifas nacionales e internaciones en todas las aerolíneas al rededor del mundo con posibilidad de consultarlas en nuestra página de internet. Las tarifas son negociadas entre punto y punto.
-</p><p>
-Llevamos a cabo el análisis de convenios corporativos para asegurar el mejor precio. (Club Premier AM)</p></div>
+		<h6>SERVICIOS AÉREOS</h6><p>Alrededor del mundo, incluyendo las de la web y como tarifas negociadas entre punto y punto, realizamos el análisis de convenios corporativos y programas de lealtad.
+
+</p></div>
 	<div class="one-third column"><img src="images/s5.png"><h6>HOTELES</h6><p>Con nuestro servicio de hospedaje puede contar con mas de 12 cadenas hoteleras en todo el mundo.
 Para el manejo ideal de gastos, contamos con un cupón de prepago facturado por Virage.
 </p><p>
@@ -69,9 +69,9 @@ Elaboramos la autorización de servicios de viaje acorde a los requerimientos.
 <section>
 	<div class="container serv marg">
 	<div class="one-third column"><img src="images/s7.png">
-		<h6>SABRE VIRTUAL THERE</h6><p>Nos permite revisar el estado de cualquier vuelo, incluyendo demoras, cancelaciones e información de terminales de embarque. También permite ver confirmaciones de reservaciones de hoteles y automóviles, entre otros servicios.
+		<h6>TRIP CASE</h6><p>Nos permite revisar el estado de cualquier vuelo, incluyendo demoras, cancelaciones e información de terminales de embarque. También permite ver confirmaciones de reservaciones de hoteles y automóviles, entre otros servicios.
 </p></div>
-	<div class="one-third column"><img src="images/s8.png"><h6>CLIENT BASE / SABRE CRM</h6><p>Aquí compilamos datos de nuestros clientes como sus preferencias de viaje, números de viajero frecuente, vigencia de pasaporte y visa.
+	<div class="one-third column"><img src="images/s8.png"><h6>PERFILES DE VIAJERO</h6><p>Aquí compilamos datos de nuestros clientes como sus preferencias de viaje, números de viajero frecuente, vigencia de pasaporte y visa.
 
 También les hacemos llegar promociones e información de nuestros proveedores de servicios.</p></div>
 <div class="one-third column"><img src="images/s9.png">

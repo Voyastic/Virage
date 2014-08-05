@@ -97,7 +97,8 @@
 <div class="three columns">
 		<ul> 
 <li><div class="imagen"><img src="images/phone.png"></div><div class="two columns"><h5>CONMUTADOR:</h5>52.00.50.50<h5>GRATUITO:</h5>
-01.800.716.09.99<h5>SERVICIO<br> 365 X 24:</h5>
+01.800.716.09.99<h5>SERVICIO<br> 365 X 24:</h5>044 55 54341454  
+<br>
 52.00.50.22</div></li><br>	
 
 		</ul>
@@ -127,7 +128,7 @@ México, D.F.
 		<a href="">
 			<li> Encuesta de servicio |</li>
 		</a>
-		<a href="">
+		<a href="contacto.php">
 			<li> Contacto</li>
 		</a>
 	</ul></div>
