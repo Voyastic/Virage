@@ -1,3 +1,4 @@
+
 <!--LOGIN-->
 <script src="js/jquery.leanModal.min.js"></script>
 	<div id="loginmodal" style="display:none;">
@@ -44,6 +45,7 @@ $(function(){
     <a href=""><li>Blog</li></a>
     <a href="contacto.php"><li>Contacto</li></a>
     <a href="#loginmodal" class="flatbtn" id="modaltrigger"><li>Login</li></a>
+    <a href="#" class="togglebtn"><li>COTIZAR MI VIAJE</li></a>
 
 </ul>
 <script type="text/javascript">

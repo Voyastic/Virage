@@ -29,7 +29,7 @@
 <?php include 'menu.php';?>
 
 
-<div class="liston">
+<div class="liston hidden">
 	<div class="lblanco"><h4>¡ORGANIZA TU VIAJE!</h4></div>
 	<div class="triangulo"></div>
 		<form name="form" action="" onsubmit="return validateForm();" method="post">
@@ -46,8 +46,12 @@
 			<p>Seleccione el origen y su destino:</p>
 			 <input id="geocomplete" type="text" placeholder="Origen" type="text" name="origen" />
 		     <input id="geocomplete2" type="text" placeholder="Destino" type="text" name="destino" /> 
+<script>
+$(".liston").hide();
+  $( ".togglebtn" ).click(function() {
+  $( ".liston" ).slideToggle( "slow" );
+});
 
-    <script>
       $(function(){
      
         var options = {
@@ -148,10 +152,10 @@
 		<section class="nosotros">
 			<div class="container">
 				<h1>¿PORQUÉ VIAJAR CON VIRAGE?</h1>
-				<div class="nine columns"><p>En Virage nos especializamos en servicios turísticos corporativos con 30 años de experiencia realizando grupos, convenciones y congresos médicos, así como también automotrices, de alimentos y servicios.
-Nuestro departamento “Tour & Travel” asegura la perfecta planeación de viajes recreativos y placenteros de nuestros viajeros.</p><p>
+				<div class="nine columns"><p>En Virage nos especializamos en servicios turísticos corporativos con más de 30 años de experiencia, realizando grupos de incentivos, convenciones y congresos de diferentes sectores; Nuestra área de Tour and Travel a formado parte de miles de experiencias que han hecho la recomendación de nuestros clientes y en la parte corporativa hemos ayudado a integrar procesos, mayores ahorros y mejorar la administración del viaje.</p><p>
 
-Nuestro trabajo nos ha llevado al liderazgo en la industria y a ser reconocidos por las diferentes líneas aéreas y cadenas hoteleras
+Nuestros trabajo nos ha llevado a formar parte de los lideres de la industria y a ser reconocidos como una empresa innovadora y transparente.
+
 </p></div>
 			</div>
 		</section>

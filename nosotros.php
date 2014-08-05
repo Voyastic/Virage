@@ -16,13 +16,19 @@
 <link rel="stylesheet" href="css/slicknav.css">
 <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.glide.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places"></script>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic' rel='stylesheet' type='text/css'>
+<script src="js/jquery.geocomplete.js"></script>
+<script src="js/logger.js"></script> 
 <script src="js/jquery.slicknav.js"></script>
 
+</head>
 </head>
 
 <body>
 	<?php include 'menu.php';?>
+	<?php include 'cotizador.php';?>
 
 
 <section class="hnos" id="largeimage">
@@ -33,16 +39,10 @@
 
 <div id="div1">
 	<h6>CONÓCENOS</h6>
-	<p>Tenemos 30 años de experiencia realizando grupos, convenciones y congresos médicos, automotrices, de alimentos y de servicios.</p><p>
-
-Asumimos también el compromiso con el desarrollo del turismo y tenemos el departamento para cumplir con este precepto, “Tour & Travel” asegura la perfecta planeación de viajes recreativos y placenteros de nuestros clientes.</p><p>
-
-Nuestro trabajo nos ha llevado al liderazgo en la industria y a ser reconocidos por diferentes líneas aéreas y cadenas hoteleras, lo que nos impulsa a continuar esforzándonos y seguir el camino a la excelencia en viajes, poniendo a disposición de nuestros clientes toda la experiencia en este increíble mundo del turismo.
+	<p>Nuestro trabajo nos ha llevado al liderazgo en la industria y a ser reconocidos por diferentes prestadores de servicios turísticos, lo que nos impulsa a continuar esforzándonos y seguir en el camino a la excelencia de los viajes, poniendo a disposición de nuestros clientes, todas nuestra experiencia y conocimiento.
 </p><p>
-Somos profesionales en un mundo donde la competitividad no se detiene, con soluciones rápidas y efectivas, ofrecemos a nuestros clientes un valor agregado en los servicios turísticos corporativos.</p><p>
+Somos profesionales en un mundo donde la competitividad no se detiene con soluciones rápidas y efectivas, ofrecemos a nuestros clientes un valor agregado en los servicios corporativos y administración del viaje.
 
-Desde la reservación hasta la elaboración y coordinación de programas de viajes empresariales proporcionamos el mejor servicio con atención de calidad, apoyados en nuestra experiencia y con los sistemas mas especializados.
-</p>
 </div>
 
 <div id="div2">
@@ -77,7 +77,7 @@ SAP Business One se integra con el Sistema de Distribución Global (GDS) Sabre, 
 	</div>
 	</div>	
 	<div class="eight columns botones">
-		<h6>"EN VIRAGE NOS ESPECIALIZAMOS EN HACER DE LOS SERVICIOS TURÍSTICOS CORPORATIVOS UNA EXPERIENCIA INOLVIDABLE"</h6>
+		<h6>“EN VIRAGE NOS ESPECIALIZAMOS EN HACER DE LOS SERVICIOS CORPORATIVOS TODA UNA EXPERIENCIA.”</h6>
 <ul>
 	<li id="img1"><div class="circle">NOSOTROS</div></li>
 	<li id="img2"><div class="circle">MISIÓN</div></li>

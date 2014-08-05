@@ -27,7 +27,7 @@
 
 <body>
 	<?php include 'menu.php';?>
-
+	<?php include 'cotizador.php';?>
 
 <section class="servicios" id="largeimage">
 	<div class="container"> <h3> NUESTROS SERVICIOS</h3>	
@@ -36,10 +36,13 @@
 <section>
 	<div class="container serv">
 	<div class="one-third column"><img src="images/s1.png">
-		<h6>SERVICIO 24/7 </h6><p>Contamos con atención telefónica las 24 hrs, los 365 días del año en caso de contratiempos y emergencias de viaje.</p></div>
-	<div class="one-third column"><img src="images/s2.png"><h6>VIAJES DE NEGOCIOS</h6><p>Organizamos viajes de negocios perfectamente planeados y estructurados, cumpliendo con las normas requeridas y respaldados por nuestra experiencia en el mercado.</p></div>
+		<h6>SERVICIO 365/24</h6><p>Contamos con atención telefónica las 24 hrs, los 365 días del año en caso de contratiempos y emergencias de viaje.</p></div>
+	<div class="one-third column"><img src="images/s2.png"><h6>VIAJES CORPORATIVOS</h6>
+		<p>Organizamos viajes corporativos perfectamente planeados y estructurados, cumpliendo con las políticas de viajes de las organizaciones; asesorados por las mejores negociaciones y prestadores de servicios.
+</p></div>
 <div class="one-third column"><img src="images/s3.png">
-		<h6>VIAJES DE PLACER</h6><p>Contamos con atención telefónica las 24 hrs, los 365 días del año en caso de contratiempos y emergencias de viaje.</p></div>
+		<h6>VIAJES DE EXPERIENCIA</h6>
+		<p>¿Alguna vez imaginaste dormir en una cama de hielo, visitar el Kilimangiaro, el paisaje interior en Alaska o hacer un paseo en góndola? Aquí te ayudamos a crear esa experiencia.</p></div>
 
 </div></section>
 
@@ -49,7 +52,7 @@
 		<h6>SERVICIOS AÉREOS</h6><p>Proporcionamos las mejores tarifas nacionales e internaciones en todas las aerolíneas al rededor del mundo con posibilidad de consultarlas en nuestra página de internet. Las tarifas son negociadas entre punto y punto.
 </p><p>
 Llevamos a cabo el análisis de convenios corporativos para asegurar el mejor precio. (Club Premier AM)</p></div>
-	<div class="one-third column"><img src="images/s5.png"><h6>SERVICIO DE HOSPEDAJE</h6><p>Con nuestro servicio de hospedaje puede contar con mas de 12 cadenas hoteleras en todo el mundo.
+	<div class="one-third column"><img src="images/s5.png"><h6>HOTELES</h6><p>Con nuestro servicio de hospedaje puede contar con mas de 12 cadenas hoteleras en todo el mundo.
 Para el manejo ideal de gastos, contamos con un cupón de prepago facturado por Virage.
 </p><p>
 Nos acercamos a los hoteles para conseguir mejores tarifas.
@@ -65,11 +68,16 @@ Elaboramos la autorización de servicios de viaje acorde a los requerimientos.
 </section>
 <section>
 	<div class="container serv marg">
-	<div class="one-third column"><img src="images/s1.png">
-		<h6>SERVICIO 24/7 </h6><p>Contamos con atención telefónica las 24 hrs, los 365 días del año en caso de contratiempos y emergencias de viaje.</p></div>
-	<div class="one-third column"><img src="images/s2.png"><h6>VIAJES DE NEGOCIOS</h6><p>Organizamos viajes de negocios perfectamente planeados y estructurados, cumpliendo con las normas requeridas y respaldados por nuestra experiencia en el mercado.</p></div>
-<div class="one-third column"><img src="images/s3.png">
-		<h6>VIAJES DE PLACER</h6><p>Contamos con atención telefónica las 24 hrs, los 365 días del año en caso de contratiempos y emergencias de viaje.</p></div>
+	<div class="one-third column"><img src="images/s7.png">
+		<h6>SABRE VIRTUAL THERE</h6><p>Nos permite revisar el estado de cualquier vuelo, incluyendo demoras, cancelaciones e información de terminales de embarque. También permite ver confirmaciones de reservaciones de hoteles y automóviles, entre otros servicios.
+</p></div>
+	<div class="one-third column"><img src="images/s8.png"><h6>CLIENT BASE / SABRE CRM</h6><p>Aquí compilamos datos de nuestros clientes como sus preferencias de viaje, números de viajero frecuente, vigencia de pasaporte y visa.
+
+También les hacemos llegar promociones e información de nuestros proveedores de servicios.</p></div>
+<div class="one-third column"><img src="images/s9.png">
+		<h6>REPORTES EN LÍNEA</h6><p>Desde nuestra página de internet podrá consultar sus reportes en línea personalizados que les permitirán un control preciso de sus viajes,
+		en estos reportes encontrará información acerca de los vuelos, destinos, tarifas, clases, etc. que su personal haya utilizado durante un periodo definido. Esta información la encontrará
+		dividida por cualquier otro dato utilizado durante el proceso de emisión del servicio de viaje.</p></div>
 
 </div></section>
 	<?php include 'footer.php';?>

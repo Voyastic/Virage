@@ -40,34 +40,32 @@
 				<li><h5>SERVICIOS</h5></li>
 			</a>
 			<a href="servicios.php">
-				<li>Servicio 24/7</li>
+				<li>Servicio 365 X 24</li>
 			</a>
 			<a href="servicios.php">
-				<li>Viajes de negocio</li>
+				<li>Viajes corporativos</li>
 			</a>
 			<a href="servicios.php">
-				<li>Viajes de placer</li>
+				<li>Viajes de experiencia</li>
 			</a>
 			
 			
 			<a href="servicios.php">
-				<li>Servicios aereos</li>
+				<li>Servicios aéreos</li>
 			</a>
 			<a href="servicios.php">
-				<li>Hospedaje y Transporte</li>
+				<li>Hotel y servicios terrestres</li>
 			</a>
 			<a href="servicios.php">
-				<li>Client Base / Sabre CRM</li>
+				<li>Perfiles de viajero</li>
 			</a>
 			<a href="servicios.php">
-				<li>Sabre Virtually There</li>
+				<li>Trip Case</li>
 			</a>
 			<a href="servicios.php">
 				<li>Reportes en línea</li>
 			</a>
-				<a href="servicios.php">
-				<li>Tour & Travel</li>
-			</a>
+				
 
 
 		</ul>
@@ -99,7 +97,7 @@
 <div class="three columns">
 		<ul> 
 <li><div class="imagen"><img src="images/phone.png"></div><div class="two columns"><h5>CONMUTADOR:</h5>52.00.50.50<h5>GRATUITO:</h5>
-01.800.716.09.99<h5>EMERGENCIA:</h5>
+01.800.716.09.99<h5>SERVICIO<br> 365 X 24:</h5>
 52.00.50.22</div></li><br>	
 
 		</ul>
