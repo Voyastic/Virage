@@ -78,7 +78,8 @@ SAP Business One se integra con el Sistema de Distribución Global (GDS) Sabre, 
 	</div>	
 	<div class="eight columns botones">
 		<h6>“EN VIRAGE NOS ESPECIALIZAMOS EN HACER DE LOS SERVICIOS CORPORATIVOS TODA UNA EXPERIENCIA.”</h6>
-<ul>
+
+<ul class="tabs">
 	<li id="img1"><div class="circle">NOSOTROS</div></li>
 	<li id="img2"><div class="circle">MISIÓN</div></li>
 	<li id="img3"><div class="circle">DISTINTIVO M</div> </li>

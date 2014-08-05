@@ -28,6 +28,7 @@
 <body>
 	<?php include 'menu.php';?>
 
+	<?php include 'cotizador.php';?>
 
 <section class="contacto" id="largeimage">
 	<div class="container"> <h3> CONTÁCTANOS</h3>
