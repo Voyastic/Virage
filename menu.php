@@ -8,10 +8,10 @@
     <a href="nosotros.php"><li>Nosotros</li></a>
     <a href="servicios.php"><li>Servicios</li></a>
     <a href="premium.php"><li>Premium</li></a>
-    <a href=""><li>Blog</li></a>
+    <a href="https://www.viajesintegrales.com/blog"><li>Blog</li></a>
     <a href="contacto.php"><li>Contacto</li></a>
-    <a href="#loginmodal" class="flatbtn" id="modaltrigger"><li>Login</li></a>
-    <a href="#" class="togglebtn"><li>COTIZAR MI VIAJE</li></a>
+    <a href="#loginmodal" class="flatbtn mobnone" id="modaltrigger" ><li>Login</li></a>
+    <a href="#" class="togglebtn mobnone"><li>COTIZAR MI VIAJE</li></a>
 
 </ul>
 <script type="text/javascript">

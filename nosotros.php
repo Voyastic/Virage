@@ -37,15 +37,13 @@
 </section>
 <section class="container main">
 	
-
-
-<div class="eight columns">
+<div class="eight columns tamano">
 	<div class="botones">
 <ul class="tabs">
 	<li id="img1"><div class="spacetab">NOSOTROS</div></li>
 	<li id="img2"><div class="spacetab">MISIÓN</div></li>
 	<li id="img3"><div class="spacetab">DISTINTIVO M</div> </li>
-	<li id="img4"><div class="spacetab last">VENTAJAS COMPETITIVAS</div></li>
+	<li id="img4"><div class="spacetab last">VENTAJAS</div></li>
 </ul></div>
 <div id="div1">
 	<h6>CONÓCENOS</h6>

@@ -22,7 +22,6 @@
 <script src="js/jquery.geocomplete.js"></script>
 <script src="js/logger.js"></script> 
 <script src="js/jquery.slicknav.js"></script>
-
 </head>
 
 <body>

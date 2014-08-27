@@ -125,9 +125,7 @@ México, D.F.
 		<a href="">
 			<li>Políticas de privacidad |</li>
 		</a>
-		<a href="">
-			<li> Encuesta de servicio |</li>
-		</a>
+		
 		<a href="contacto.php">
 			<li> Contacto</li>
 		</a>

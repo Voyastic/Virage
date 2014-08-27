@@ -54,7 +54,7 @@
 <section class="gris">
 	<div class="container">
 	<div class="six columns">
-		<img src="images/world.png">
+		<img class="prem" src="images/world.png">
 	</div>
 	<div class="offset-by-two eight columns" id="congresos">
 		<h2>CONGRESOS Y CONVECIONES</h2>
