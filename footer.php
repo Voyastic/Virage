@@ -124,8 +124,7 @@ México, D.F.
 		</a>
 		<a href="">
 			<li>Políticas de privacidad |</li>
-		</a>
-		
+		</a>		
 		<a href="contacto.php">
 			<li> Contacto</li>
 		</a>

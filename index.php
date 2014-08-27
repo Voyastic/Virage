@@ -89,20 +89,7 @@ Nuestros trabajo nos ha llevado a formar parte de los lideres de la industria y 
 
 <?php include 'promo.php';?>
 
-<section class="testimonio">
-	<div class="container">
-		<div class="eight columns">
-			<div class="two column"><img src="images/foto1.png"></div>
-			<div class="five columns testm">"Básicamente por confianza, buen nivel de viaje y cumple las expectativas que uno tiene en el concepto de viajar."	<p class="orange"> - Ana Maria Alcocer. 
-</p></div>
-	</div>
-		<div class="eight columns">
-			<div class="two column"><img src="images/foto2.png"></div>
-			<div class="five columns testm">"Virage ya tiene nombre, es una empresa organizada, responsable y cumplida. Siempre he tenido buena experiencia con mis viajes." <p class="orange"> - Pilar de Narvaez.
- </p></div>
-		</div>
-	</div>
-</section>
+
 	<?php include 'footer.php';?>
 
 </body>
