@@ -10,6 +10,7 @@
     <a href="premium.php"><li>Premium</li></a>
     <a href="https://www.viajesintegrales.com/blog"><li>Blog</li></a>
     <a href="contacto.php"><li>Contacto</li></a>
+    <a href="cotizar.php" class="hidden"><li>Cotizar mi viaje</li></a>
     <a href="#loginmodal" class="flatbtn mobnone" id="modaltrigger" ><li>Login</li></a>
     <a href="#" class="togglebtn mobnone"><li>COTIZAR MI VIAJE</li></a>
 
